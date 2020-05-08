@@ -1,0 +1,59 @@
+
+a{
+    color: black;
+}
+a:hover{
+    color: wheat;
+}
+.all{
+    /* background-color: #FF95AC; */
+    background-image: url('../img/marble.jpg');
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    height: 950px;
+}
+@font-face { font-family: warmheart; src: url('../212\ Warmheart\ Sans\ PERSONAL\ USE.ttf');}
+
+.pic{
+    width: 300;
+    height: 300px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border-radius: 200px;
+    border-width: 10px;
+    border-style: inset;
+    border-color: #DC6060;
+}
+.topic{
+    padding: 8px;
+}
+.tb{
+    width: 50%;
+    padding: 40px;
+    text-align: left;
+    margin-left: 25%;
+    border-spacing: 0px;
+    font-size: 20pt;
+    font-family: Warmheart;
+}
+.tablinks{
+    width: 16.67%;
+    background-color: #F08080;
+    padding: 20px;
+    font-family: warmheart;
+    font-size: 18pt;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.tab{
+    width: 100%;
+    border-spacing: 0.5px;
+}
+.tablinks:hover {
+    background-color: #CD5C5C;
+}
+.odd{background-color: #FFDEA9;}
+.even{background-color:#FF9AAE;}
